@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     background-color: #0C0F32;
@@ -15,15 +21,17 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 h1 {
     text-align: center;
     margin-top: 20px;
 }
-strong {
+
+.tituloPrincipal {
     color: #00ffff;
 }
 
-span{
+span {
     color: #22D4FD;
     border: 1px solid #22D4FD;
     padding: 10px;
