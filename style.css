@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,11 +7,10 @@
 
 
 body {
-    font-family: Arial, sans-serif;
+    height: 100vh;
+    box-sizing: border-box;
     background-color: #0C0F32;
     color: #f2f6f6;
-    margin: 0;
-    padding: 0;
 }
 
 footer {
@@ -22,17 +23,34 @@ footer {
     width: 100%;
 }
 
-h1 {
-    text-align: center;
-    margin-top: 20px;
-}
-
 .tituloPrincipal {
     color: #00ffff;
 }
 
-span {
-    color: #22D4FD;
-    border: 1px solid #22D4FD;
-    padding: 10px;
+
+.apresentacao {
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: "Croissant One", serif;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 24px;
+    font-family: "Croissant One", serif;
+}
+
+.apresentacao__link {
+    display: flex;
+    justify-content: space-between;
 }
